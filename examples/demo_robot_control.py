@@ -1,5 +1,8 @@
 import time
 import numpy as np
+import sys
+# print(sys.path)
+sys.path.append('/Users/yin/Documents/GitHub/tactile_sim')
 
 from tactile_sim.utils.setup_pb_utils import standard_argparse
 from tactile_sim.utils.setup_pb_utils import connect_pybullet
